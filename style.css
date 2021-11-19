@@ -228,6 +228,9 @@ tbody tr:nth-child(2n){
         padding: 15px 25px;
         cursor: pointer;
         text-align: center;
+        display: flex;  
+        justify-content: center;
+        align-items: center;  
         text-decoration: none;
         outline: none;
         color: #fff;
@@ -236,7 +239,7 @@ tbody tr:nth-child(2n){
         border-radius: 25px;
         box-shadow: 0 9px #464649;
     }
-    .start-btn:hover {background-color: #2d2d2f}
+    .start-btn:hover {background-color: #464649}
     .start-btn:active {
         background-color: #2d2d2f;
         box-shadow: 0 5px #464649;
