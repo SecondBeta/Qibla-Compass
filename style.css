@@ -219,7 +219,7 @@ tbody tr:nth-child(2n){
         opacity: 0;
         width: 20%;
         height: 20%;
-        background: #2d2d2f;
+        background: #18ca00;
         border-radius: 50%;
         transition: opacity 0.5s ease-out;
         }
