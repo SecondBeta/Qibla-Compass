@@ -225,11 +225,11 @@ tbody tr:nth-child(2n){
         color: #fff;
         background-color: #2d2d2f;
         border-radius: 25px;
-        box-shadow: 9px #464649;
+        box-shadow: 0 9px #464649;
     }
     .start-btn:hover {background-color: #464649}
     .start-btn:active {
         background-color: #2d2d2f;
-        box-shadow: 5px #464649;
+        box-shadow: 0 5px #464649;
         transform: translateY(4px);
     }
