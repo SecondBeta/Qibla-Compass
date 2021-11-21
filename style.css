@@ -164,18 +164,8 @@ tbody tr:nth-child(2n){
      color: #fff;
      position: relative;
      background: #2d2d2f;
+     margin: auto;
      padding: 18px;
-     border-radius: 8px;
-     max-width: 320px;
-     text-align: center;
-    }
- .bubble2 {
-     font-family: system-ui;
-     font-size: 1.1em;
-     color: #fff;
-     position: relative;
-     background: #2d2d2f;
-     padding: 4px;
      border-radius: 8px;
      max-width: 320px;
      text-align: center;
@@ -225,23 +215,21 @@ tbody tr:nth-child(2n){
         }
     .start-btn {
         display: inline-block;
-        padding: 15px 25px;
+        padding: 15px;
         cursor: pointer;
         text-align: center;
         display: flex;  
         justify-content: center;
         align-items: center;  
-        text-decoration: none;
-        outline: none;
+        margin: auto;
         color: #fff;
         background-color: #2d2d2f;
-        border: none;
         border-radius: 25px;
-        box-shadow: 0 9px #464649;
+        box-shadow: 9px #464649;
     }
     .start-btn:hover {background-color: #464649}
     .start-btn:active {
         background-color: #2d2d2f;
-        box-shadow: 0 5px #464649;
+        box-shadow: 5px #464649;
         transform: translateY(4px);
     }
