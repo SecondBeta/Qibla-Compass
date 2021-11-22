@@ -1,6 +1,6 @@
 # Qibla-Compass
 
-### This is a static webpage that gives the direction of prayer.
+### This is a static webpage that gives the direction of Islamic prayer.
 
 ## Credits:
 Compass by @gigantz on Github, edited by: Orkhan Jafarov (on dev.to)
