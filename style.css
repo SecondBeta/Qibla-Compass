@@ -159,7 +159,6 @@ tbody tr:nth-child(2n){
     background:#c4c4c4
 }
  .bubble {
-     font-family: system-ui;
      font-size: 1.1em;
      color: #fff;
      position: relative;
@@ -233,3 +232,31 @@ tbody tr:nth-child(2n){
         box-shadow: 0 5px #464649;
         transform: translateY(4px);
     }
+    .alert {
+        display: inline-block;
+        padding: 8px;
+        text-align: center;
+        display: flex;  
+        justify-content: center;
+        align-items: center;  
+        margin: auto;
+        color: #fff;
+        background-color: #1c1c1e;
+        border-radius: 4px;
+        box-shadow: 0 9px #464649;
+        opacity: 1;
+        transition: opacity 0.6s;
+  }
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: left;
+    font-size: 24px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .closebtn:hover {
+    color: rgb(0, 0, 0);
+  }

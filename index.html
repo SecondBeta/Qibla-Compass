@@ -13,6 +13,31 @@
           <h3 style="text-align:center;background: -webkit-linear-gradient(#006993, #20B2AB);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;">Qibla Compass, the Direction of Islamic Prayer</h3>
+            <div class="alert">
+               <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+               <p id="text"></p>
+            </div>
+            <script type="text/javascript">
+            var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+            var element = document.getElementById('text');
+            if (isMobile) {
+               element.innerText = "Your Browser is Compatible with the Compass";
+            } else {
+               element.innerText = "A PC is not compatible with this compass as it lacks a motion controller, please use a mobile device.";
+               }
+               </script>
+               <script>
+                  var close = document.getElementsByClassName("closebtn");
+                  var i;
+                  
+                  for (i = 0; i < close.length; i++) {
+                    close[i].onclick = function(){
+                      var div = this.parentElement;
+                      div.style.opacity = "0";
+                      setTimeout(function(){ div.style.display = "none"; }, 600);
+                    }
+                  }
+                  </script>
             <h4>How it Works:</h4>
             <p>When the compass is pointed towards the Qibla, a green circle will appear at the center of the compass, this is the correct direction of prayer from your location.</p>
        </div>
